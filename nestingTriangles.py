@@ -23,12 +23,14 @@ def triangle(t, length):
     and calls triangle(t, length/2).
     """
     
-     ###################################
-     ### FILL IN YOUR CODE HERE      ###
-     ### Other than your name above, ###
-     ### these are the only sections ###
-     ### you change in this program. ###
-     ###################################    
+a=int(input("Enter edge length:"))
+import turtle
+lmc=turtle.Turtle()
+if a >10:
+    for i in range(3):
+        lmc.forward(a)
+        lmc.left(120)
+lmc="t,length/2"
 
 
 def nestedTriangle(t, length):
@@ -39,12 +41,14 @@ def nestedTriangle(t, length):
     and calls triangle(t, length/2).
     """
 
-     ###################################
-     ### FILL IN YOUR CODE HERE      ###
-     ### Other than your name above, ###
-     ### these are the only sections ###
-     ### you change in this program. ###
-     ###################################       
+b=int(input("Enter edge length:"))
+import turtle
+lmc2=turtle.Turtle()
+if a >10:
+    for i in range(3):
+        lmc.forward(a)
+        lmc.left(120)
+lmc2="t,length/2"#       
 
 
 def main():
